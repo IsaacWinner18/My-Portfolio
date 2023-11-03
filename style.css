@@ -100,20 +100,19 @@ a {
 
 .section-two {
   display: flex;
-  gap: 1rem;
+  gap: 0.8rem;
   justify-content: center;
   margin-bottom: 30px;
 }
 
 .section-two div {
-  width: auto;
   border: 1px solid red;
-  padding: 25px;
+  padding: 18px;
   cursor: pointer;
-  border-radius: 100%;
+  border-radius: 10%;
   font-size: 15px;
   font-weight: 800;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
 }
 
 .section-two div:nth-child(1) {
@@ -134,4 +133,47 @@ a {
   width: 16rem;
   height: 16rem;
   border-radius: 50%;
+}
+
+.contacts-sec {
+  margin-left: 30px;
+}
+
+.contacts-phone {
+  margin-bottom: 30px;
+}
+
+.contacts-phone span:nth-child(1) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.my-no {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contacts-email {
+  margin-bottom: 30px;
+}
+
+.contacts-email span:nth-child(1) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.contacts-follow {
+  margin-bottom: 30px;
+}
+
+.contacts-follow p:nth-child(1) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.contacts-follow span {
+ padding: 0 20px 20px;
+  font-size: 40px;
 }
