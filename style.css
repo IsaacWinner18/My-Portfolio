@@ -94,9 +94,10 @@ a {
 
 .about-p {
   font-size: 17px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   letter-spacing: 1px;
   word-spacing: 1px;
+  font-weight: 500;
 }
 
 .section-two {
@@ -177,4 +178,12 @@ a {
 .contacts-follow span {
  padding: 0 20px 20px;
   font-size: 40px;
+}
+
+.footer {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-weight: 300;
+  font-size: 12px;
 }
