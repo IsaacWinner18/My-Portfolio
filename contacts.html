@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-</head>
-<body>
-      
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Personal . Portfolio</title>
+  </head>
+  <body>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="project.html">Projects</a>
+        <a href="contacts.html">Contacts</a>
+      </div>
+    </div>
+
+    <span onclick="openNav()">
+      <a href="#"> <i id="ham-menu" class="fa fa-bars"></i> </a>
+    </span>
+
+    <div class="port-logo">
+      <span class="cls-round"></span>
+      <span> <a href="">Isaac Winner</a></span>
+    </div>
+
+    <div class="contactts">Contact</div>
+    <p class="looking-forward">Looking forward to hearing from you</p>
+
+    <div class="cover">
+      <div class="contacts-phone">
+        <div>
+          <span>Phone</span><br />
+          <span class="my-no">081-191-88295</span>
+        </div>
+      </div>
+
+      <div class="contacts-email">
+        <span>Email</span><br />
+        <span class="my-no">Winnerisaac62@gmail.com</span>
+      </div>
+    </div>
+
+    <form action="">
+      <div>
+        <label for="">First Name</label><br />
+        <input type="text" required />
+      </div>
+
+      <div>
+        <label for="">Last Name</label><br />
+        <input type="text" required />
+      </div>
+
+      <div>
+        <label for="">Email</label><br />
+        <input type="text" required />
+      </div>
+
+      <div>
+        <label for="">Subject</label><br />
+        <input type="text" required />
+      </div>
+
+      <div>
+        <label for="">Last Name</label><br />
+        <textarea name="" id="" cols="30" rows="8"></textarea>
+      </div>
+
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+
+    <hr />
+
+    <div class="contacts-sec">
+      <div class="contacts-phone">
+        <div>
+          <span>Phone</span><br />
+          <span class="my-no">081-191-88295</span>
+        </div>
+      </div>
+
+      <div class="contacts-email">
+        <span>Email</span><br />
+        <span class="my-no">Winnerisaac62@gmail.com</span>
+      </div>
+
+      <div class="contacts-follow">
+        <p>Follow Me</p>
+        <br />
+
+        <span>
+          <a href="#"><i class="fa fa-twitter-square"> </i> </a>
+        </span>
+
+        <span>
+          <a href="#"><i class="fa fa-facebook-official"></i></a>
+        </span>
+
+        <span>
+          <a href="#"><i class="fa fa-github-square"></i></a>
+        </span>
+      </div>
+    </div>
+
+    <div class="footer">&copy; 2023 by Isaac Winner</div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
