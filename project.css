@@ -34,3 +34,26 @@
       height: 20rem;
       margin-bottom: 20px;
 }
+
+@media screen and (min-width: 760px) {
+ .proj-trying {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 130px;
+ }
+
+ .proj-img {
+  width: auto;
+  height: 30vw;
+  margin-bottom: 50px;
+  padding-left: 100px;
+}
+.proj-trying-two {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+}
