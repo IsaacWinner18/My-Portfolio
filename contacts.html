@@ -20,7 +20,7 @@
       >
       <!-- Overlay content -->
       <div class="overlay-content">
-        <a href="#">Home</a>
+        <a href="index.html">Home</a>
         <a href="resume.html">Resume</a>
         <div class="vertical-line"></div>
 
@@ -44,51 +44,56 @@
     <p class="looking-forward">Looking forward to hearing from you</p>
 
     <div class="contact-trying">
+      <div class="cover">
+        <div class="contacts-phone">
+          <div>
+            <span>Phone</span><br />
+            <span class="my-no">081-191-88295</span>
+          </div>
+        </div>
 
-    <div class="cover">
-      <div class="contacts-phone">
-        <div>
-          <span>Phone</span><br />
-          <span class="my-no">081-191-88295</span>
+        <div class="contacts-email">
+          <span>Email</span><br />
+          <span class="my-no">Winnerisaac62@gmail.com</span>
         </div>
       </div>
 
-      <div class="contacts-email">
-        <span>Email</span><br />
-        <span class="my-no">Winnerisaac62@gmail.com</span>
-      </div>
+      <form
+        action="https://formsubmit.co/winnerisaac62@gmail.com"
+        method="POST"
+        id="orderForm"
+      >
+        <!-- captcha -->
+        <input type="hidden" name="_captcha" value="false" />
+
+        <div>
+          <label for="">First Name</label><br />
+          <input type="text" name="first name" required />
+        </div>
+
+        <div>
+          <label for="">Last Name</label><br />
+          <input type="text" name="last name" required />
+        </div>
+
+        <div>
+          <label for="">Email</label><br />
+          <input type="text" name="Email" required />
+        </div>
+
+        <div>
+          <label for="">Subject</label><br />
+          <input type="text" name="subject" required />
+        </div>
+
+        <div>
+          <label for="">Last Name</label><br />
+          <textarea name="textarea" id="" cols="30" rows="8"></textarea>
+        </div>
+
+        <input type="submit" value="Submit" id="submit" />
+      </form>
     </div>
-
-    <form action="">
-      <div>
-        <label for="">First Name</label><br />
-        <input type="text" required />
-      </div>
-
-      <div>
-        <label for="">Last Name</label><br />
-        <input type="text" required />
-      </div>
-
-      <div>
-        <label for="">Email</label><br />
-        <input type="text" required />
-      </div>
-
-      <div>
-        <label for="">Subject</label><br />
-        <input type="text" required />
-      </div>
-
-      <div>
-        <label for="">Last Name</label><br />
-        <textarea name="" id="" cols="30" rows="8"></textarea>
-      </div>
-
-      <input type="submit" value="Submit" id="submit" />
-    </form>
-
-  </div>
 
     <hr />
 

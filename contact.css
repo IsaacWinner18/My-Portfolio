@@ -54,15 +54,23 @@ form #submit {
   .contactts {
     font-size: 30px;
     font-weight: 900;
-    margin-left: 170px;
+    margin-left: 60px;
     margin-bottom: 40px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  .looking-forward {
+    margin-left: 70px;
+    margin-top: -20px;
+    opacity: 0.8;
+    letter-spacing: .7px;
+    font-size: 16px;
   }
 
   .contact-trying {
     display: flex;
     gap: 6vh;
-    margin-left: 160px;
+    margin-left: 60px;
   }
 
   form {
@@ -89,12 +97,5 @@ form #submit {
     padding-bottom: 50px;
   }
 
-  .looking-forward {
-    margin-left: 170px;
-    margin-top: -20px;
-    opacity: 0.8;
-    letter-spacing: .7px;
-    font-size: 16px;
-  }
-
+ 
 }
