@@ -19,15 +19,21 @@
 }
 
 form {
-  margin-left: 10px;
+  margin-left: 15px;
   margin-bottom: 30px;
+  
 }
 
 form input {
   margin-bottom: 20px;
   padding: 12px 70px 12px 20px;
   outline: none;
-  border: 1px solid black;
+  border: 1px dotted rgb(0, 89, 255);
+  background-color: rgb(7, 9, 32);
+  border-radius: 10px;
+}
+#textarea {
+  background-color: rgb(7, 12, 56);
 }
 
 form input:hover {
@@ -50,13 +56,17 @@ form #submit {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 1001px) {
   .contactts {
     font-size: 30px;
     font-weight: 900;
     margin-left: 60px;
     margin-bottom: 40px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   
+  }
+  .contacts-sec {
+    margin-top: 30px;
   }
 
   .looking-forward {
@@ -80,6 +90,11 @@ form #submit {
     margin-left: 130px;
     margin-bottom: 30px;
     margin-right: 180px;
+    
+  }
+  form input {
+    border: 1px dotted rgb(0, 89, 255);
+    background-color: rgb(7, 9, 32);
   }
 
   form #submit {

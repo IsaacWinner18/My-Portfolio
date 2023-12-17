@@ -8,7 +8,7 @@ body {
 
 /* for mobile */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1000px) {
   #ham-menu {
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -48,7 +48,10 @@ body {
 
   .overlay a:hover,
   .overlay a:focus {
-    color: #f1f1f1;
+    background: linear-gradient(to right, #ffffff, #750101);
+    -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-clip: text;
   }
 
   .overlay .closebtn {
@@ -56,6 +59,9 @@ body {
     top: 20px;
     right: 45px;
     font-size: 60px;
+  }
+  #name {
+    font-size: 26px;
   }
 
   .cls-round {
@@ -110,6 +116,9 @@ body {
     letter-spacing: 1px;
     word-spacing: 1px;
     font-weight: 500;
+    line-height: 30px;
+    margin-right: 10px;
+   
   }
 
   .section-two {
@@ -209,8 +218,16 @@ body {
 }
 
 /* for bigger screen sizes */
-@media screen and (min-width: 760px) {
-  
+@media screen and (min-width: 1001px) {
+ 
+  .overlay a:hover,
+  .overlay a:focus {
+    background: linear-gradient(to right, #ffffff, #750101);
+    -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-clip: text;
+  }
+
 #ham-menu {
   display: none;
 }
@@ -235,7 +252,10 @@ body {
 
 .port-logo span,
 a {
-  color: rgb(255, 255, 255);
+  background: linear-gradient(20deg, #ff8c00, #ff2d55);
+    -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-clip: text;
   text-decoration: none;
 }
 
@@ -266,14 +286,14 @@ a {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 100px;
-  margin-left: 90px;
+  margin-left: 120px;
 }
 
 .profile-image img {
   display: flex;
   margin: 0 auto;
-  width: 20rem;
-  height: 20rem;
+  width: 23rem;
+  height: 23rem;
   border-radius: 50%;
 }
 
@@ -282,14 +302,18 @@ a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: 900;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .a-bit-about-me {
+  background: linear-gradient(to right, #c91e12, #ff002f);
+    -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-clip: text;
   font-size: 20px;
   font-weight: 700;
   font-family: Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .section-two div {
@@ -298,13 +322,14 @@ a {
 
 .about-p {
   font-size: 15px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 0.8px;
-  word-spacing: 0.7px;
+  word-spacing: 0.9px;
+  line-height: 30px;
   font-weight: 400;
-  margin-left: 40px;
-  margin-right: 30px;
+  margin-left: 60px;
+  margin-right: 100px;
+
 }
 
 .contacts-sec {
@@ -337,7 +362,7 @@ justify-content: space-around;
 
 .contacts-follow span {
   padding: -10px 20px 20px;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .footer {
@@ -346,7 +371,7 @@ justify-content: space-around;
   margin-bottom: 10px;
   margin-left: 30px;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 }
