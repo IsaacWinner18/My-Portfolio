@@ -31,9 +31,11 @@ form input {
   border: 1px dotted rgb(0, 89, 255);
   background-color: rgb(7, 9, 32);
   border-radius: 10px;
+  color: bisque;
 }
 #textarea {
   background-color: rgb(7, 12, 56);
+  color: bisque;
 }
 
 form input:hover {
