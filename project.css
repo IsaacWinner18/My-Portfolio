@@ -7,7 +7,8 @@
 }
 
 .proj-one {
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .proj-one p {
@@ -23,17 +24,8 @@
   letter-spacing: 1px;
   word-spacing: 1px;
   line-height: 24px;
-  margin-bottom: 20px;
-  margin-top: -30px;
 }
 
-.proj-img {
-      display: flex;
-      justify-content: center;
-      width: auto;
-      height: 20rem;
-      margin-bottom: 20px;
-}
 
 @media screen and (min-width: 760px) {
  .proj-trying {
@@ -41,15 +33,9 @@
   justify-content: space-around;
   margin-left: 120px;
   margin-right: 120px;
-  margin-bottom: 130px;
+  margin-bottom: 10px;
  }
 
- .proj-img {
-  width: auto;
-  height: 30vw;
-  margin-bottom: 50px;
-  padding-left: 100px;
-}
 .proj-trying-two {
   display: flex;
   justify-content: space-around;
