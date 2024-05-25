@@ -93,7 +93,7 @@ body {
   }
 
   .hello-h2 {
-    font-size: 45px;
+    font-size: 35px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     font-weight: 900;
@@ -110,7 +110,7 @@ body {
   }
 
   .about-p {
-    font-size: 17px;
+    font-size: 15px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     letter-spacing: 1px;
