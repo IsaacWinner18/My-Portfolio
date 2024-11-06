@@ -1,0 +1,265 @@
+body {
+  background-color: rgb(0, 6, 27);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(233, 224, 224);
+  overflow-x: hidden;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white; /* Change this based on your content style */
+}
+
+#ham-menu {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+.header-blur {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+#header-color {
+  background-color: rgb(6, 10, 46);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 12px;
+  
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.94);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 26px;
+  color: #fffefe;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  background: linear-gradient(to right, #ffffff, #750101);
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-clip: text;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+#name {
+  font-size: 19px;
+  background-color: white;
+}
+
+.port-logo {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.port-logo span,
+a {
+  background: linear-gradient(20deg, #ff8c00, #ff2d55);
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-clip: text;
+  text-decoration: none;
+}
+
+.out-img {
+  border: 1px solid white;
+  padding: 4px;
+  margin: 16px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.profile-image img {
+  display: flex;
+  margin: 0 auto;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgb(6, 10, 46);
+}
+
+.img-name {
+  font-size: 19px;
+  padding-top: 7px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: overline;
+  text-align: center;
+}
+
+.section-one {
+  padding: 4px;
+  margin: 16px;
+  /* backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px); */
+}
+
+.a-bit-about-me {
+  background: linear-gradient(to right, #b01962, #ff002f);
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-clip: text;
+  font-size: 29px;
+  font-weight: 900;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about-p {
+  font-size: 19px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 12px 22px 54px black;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.section-two {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.section-two div {
+  border: 1px dotted red;
+  padding: 14px;
+  cursor: pointer;
+  border-radius: 10%;
+  font-size: 12px;
+  font-weight: 800;
+  font-family: "Times New Roman", serif;
+}
+
+.section-two div:nth-child(1) {
+  background-color: rgb(24, 29, 49);
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-two div:nth-child(2) {
+  background-color: rgb(41, 52, 100);
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-two div:nth-child(3) {
+  background-color: rgb(67, 75, 119);
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contacts-sec {
+  margin-left: 30px;
+}
+
+.contacts-phone {
+  margin-bottom: 30px;
+}
+
+.contacts-phone span:nth-child(1) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.my-no {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contacts-email {
+  margin-bottom: 30px;
+}
+
+.contacts-email span:nth-child(1) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.contacts-follow {
+  margin-bottom: 30px;
+}
+
+.contacts-follow p:nth-child(1) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.contacts-follow span {
+  padding: 0 20px 20px;
+  font-size: 40px;
+}
+
+.footer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 960px) {
+  .make-flex {
+display: flex;
+align-items: center;
+margin: 5px;
+  }
+  .profile-wrap {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1035px) {
+  .about-p {
+    margin-right: 100px;
+  }
+  .profile-wrap {
+    margin-left: 60px;
+  }
+}
